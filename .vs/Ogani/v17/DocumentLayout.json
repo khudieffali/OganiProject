@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Praktikant\\GarageTask\\Ogani\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|d:\\praktikant\\garagetask\\ogani\\data\\migrations\\20240712101428_newoganidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240712101428_newoganidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\ogani.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\ogani.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|D:\\Praktikant\\GarageTask\\Ogani\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|D:\\Praktikant\\GarageTask\\Ogani\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|solutionrelative:data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|D:\\Praktikant\\GarageTask\\Ogani\\data\\datacontexts\\oganidatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|solutionrelative:data\\datacontexts\\oganidatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240712101428_newOganiDB.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Migrations\\20240712101428_newOganiDB.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240712101428_newOganiDB.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Migrations\\20240712101428_newOganiDB.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240712101428_newOganiDB.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAuwA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:14:28.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ogani.csproj",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Ogani.csproj",
+              "RelativeDocumentMoniker": "Ogani\\Ogani.csproj",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Ogani.csproj",
+              "RelativeToolTip": "Ogani\\Ogani.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-12T10:11:16.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Data.csproj",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "Data\\Data.csproj",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Data.csproj",
+              "RelativeToolTip": "Data\\Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-12T10:10:16.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:08:07.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OganiDataContext.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\DataContexts\\OganiDataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContexts\\OganiDataContext.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\DataContexts\\OganiDataContext.cs",
+              "RelativeToolTip": "Data\\DataContexts\\OganiDataContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:05:09.025Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
