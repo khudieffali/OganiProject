@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Entities
 {
-    public class ProductToColor:BaseEntity<int>
+    public class ProductToColor : BaseEntity<int>
     {
         public int ProductId { get; set; }
         public Product? Product { get; set; }

@@ -1,0 +1,22 @@
+﻿@model Tag
+
+<div class="card">
+    <div class="card-header">
+        <h5>
+             Dəyişdirilmə səhifəsi
+        </h5>
+        </br>
+        <a asp-controller="Tags" asp-action="Index" class="btn btn-primary mt-3">Geriyə Qayıt</a>
+    </div>
+    <div class="card-block">
+        <form method="post">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Adı</label>
+                <div class="col-sm-10">
+                    <input asp-for="Name" class="form-control" placeholder="Adı">
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success text-white mt-3" value="Dəyişiklikləri yadda saxla">
+        </form>
+    </div>
+</div>

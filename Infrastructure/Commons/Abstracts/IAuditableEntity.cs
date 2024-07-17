@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Commons.Abstracts
 {
-    internal interface IAuditableEntity
+    public interface IAuditableEntity
     {
         int CreatedBy { get; set; }
         DateTime CreatedAt { get; set; }

@@ -20,6 +20,7 @@ namespace Data.Configurations
             builder.Property(x => x.SubTitle).HasColumnType("nvarchar").HasMaxLength(350);
             builder.Property(x => x.Description).HasColumnType("nvarchar(MAX)");
             builder.Property(x => x.ImageUrl).HasColumnType("varchar(MAX)").IsRequired();
+            builder.Property(x => x.IsMain).HasColumnType("bit");
             builder.ConfigurationAuditable();
 
         }

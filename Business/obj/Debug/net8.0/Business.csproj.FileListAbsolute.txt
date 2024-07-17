@@ -1,11 +1,15 @@
 D:\Praktikant\GarageTask\Ogani\Business\bin\Debug\net8.0\Business.deps.json
 D:\Praktikant\GarageTask\Ogani\Business\bin\Debug\net8.0\Business.dll
 D:\Praktikant\GarageTask\Ogani\Business\bin\Debug\net8.0\Business.pdb
+D:\Praktikant\GarageTask\Ogani\Business\bin\Debug\net8.0\Infrastructure.dll
+D:\Praktikant\GarageTask\Ogani\Business\bin\Debug\net8.0\Infrastructure.pdb
+D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.sourcelink.json
+D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.csproj.Up2Date
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.dll
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\refint\Business.dll
 D:\Praktikant\GarageTask\Ogani\Business\obj\Debug\net8.0\Business.pdb

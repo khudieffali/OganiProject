@@ -5,6 +5,782 @@
       "PackagePath": "staticwebassets\\Ogani.bundle.scp.css"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\css\\additional.css",
+      "PackagePath": "staticwebassets\\admin\\css\\additional.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\css\\plugins\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\css\\plugins\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\css\\plugins\\prism-coy.css",
+      "PackagePath": "staticwebassets\\admin\\css\\plugins\\prism-coy.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\feather.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.eot"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\feather.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\feather.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.ttf"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\feather.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.woff"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFUZ0bbck.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFUZ0bbck.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVZ0b.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVp0bbck.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFVp0bbck.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFW50bbck.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFW50bbck.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWJ0bbck.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWJ0bbck.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWZ0bbck.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWZ0bbck.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWp0bbck.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\opensans\\mem8YaGs126MiZpBA-UFWp0bbck.woff2"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\pct.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\pct.eot"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\pct.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\pct.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\pct.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\pct.ttf"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\fonts\\pct.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\pct.woff"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\auth\\auth-logo-dark.png",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\auth-logo-dark.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\auth\\auth-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\auth-logo.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\browser\\chrome.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\chrome.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\browser\\firefox.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\firefox.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\browser\\ie.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\ie.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\browser\\opera.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\opera.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\browser\\safari.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\safari.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\cd-arrow.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\cd-arrow.svg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\close.png",
+      "PackagePath": "staticwebassets\\admin\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\complete.png",
+      "PackagePath": "staticwebassets\\admin\\images\\complete.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\img-grd-gal-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\img-grd-gal-1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\img-grd-gal-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\img-grd-gal-2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\img-grd-gal-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\img-grd-gal-3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\img-grd-gal-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\img-grd-gal-4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\img-grd-gal-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\img-grd-gal-5.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\img-grd-gal-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\img-grd-gal-6.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-5.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-6.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-7.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\gallery-grid\\masonry-8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-8.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\admin\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\logo-docs.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-docs.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-icon.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\logo-old.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-old.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\logo-thumb.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-thumb.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\next.png",
+      "PackagePath": "staticwebassets\\admin\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\prev.png",
+      "PackagePath": "staticwebassets\\admin\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-5.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-6.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\slider\\img-slide-7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\slider\\img-slide-7.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\cover.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\cover.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\img-avatar-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\img-avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\img-avatar-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\img-avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\user\\img-avatar-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\user\\img-avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\AUSTRALIA.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\AUSTRALIA.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\BRAZIL.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\BRAZIL.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\GERMANY.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\GERMANY.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\PHONE1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\PHONE1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\PHONE2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\PHONE2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\PHONE3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\PHONE3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\PHONE4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\PHONE4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\UK.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\UK.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\USA.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\USA.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\dashborad-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\dashborad-1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\dashborad-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\dashborad-2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\dashborad-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\dashborad-3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\dashborad-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\dashborad-4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\dashborad-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\dashborad-5.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\emoticon.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\emoticon.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\img-round1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\img-round1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\p1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\p1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\p2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\p2.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\p3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\p3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\p4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\p4.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\profile-person1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\profile-person1.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\slider5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\slider5.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\slider6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\slider6.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\slider7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\slider7.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\images\\widget\\user-blur-bg.png",
+      "PackagePath": "staticwebassets\\admin\\images\\widget\\user-blur-bg.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\analytics.js",
+      "PackagePath": "staticwebassets\\admin\\js\\analytics.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\analytics.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\analytics.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\horizontal-menu.js",
+      "PackagePath": "staticwebassets\\admin\\js\\horizontal-menu.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\menu-setting.js",
+      "PackagePath": "staticwebassets\\admin\\js\\menu-setting.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\menu-setting.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\menu-setting.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\TweenMax.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\TweenMax.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\ac-alert.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\ac-alert.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\ac-datepicker.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\ac-datepicker.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\ac-lightbox.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\ac-lightbox.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\ac-notification.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\ac-notification.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\ac-rangeslider.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\ac-rangeslider.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\ac-rating.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\ac-rating.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\chart-apex.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\chart-apex.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\chart-chart-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\chart-chart-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\chart-highchart-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\chart-highchart-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\chart-morris-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\chart-morris-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\chart-peity-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\chart-peity-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\chart.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\dashboard-analytics.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\dashboard-analytics.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\dashboard-crm.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\dashboard-crm.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\dashboard-help.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\dashboard-help.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\dashboard-main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\dashboard-main.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\dashboard-project.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\dashboard-project.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\dashboard-sale.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\dashboard-sale.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-advance-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-advance-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-api-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-api-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-autofill-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-autofill-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-basic-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-basic-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-buttons-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-buttons-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-column-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-column-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-export-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-export-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-header-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-header-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-key-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-key-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-plugin-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-plugin-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-reorder-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-reorder-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-responsive-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-responsive-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-row-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-row-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-scroller-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-scroller-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-select-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-select-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-source-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-source-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-styling-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-styling-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\data-table-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\data-table-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\editable-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\editable-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\form-advance-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\form-advance-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\form-masking-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\form-masking-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\form-picker-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\form-picker-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\form-select-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\form-select-custom.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\form-validation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\form-validation.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\google-maps.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\google-maps.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\invoice-list.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\invoice-list.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\jquery.knob-custom.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\jquery.knob-custom.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\jquery.wavify.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\jquery.wavify.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\map-api.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\map-api.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\notify-event.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\notify-event.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\page-croper.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\page-croper.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\task-board.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\task-board.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\todo.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\todo.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pages\\widget-data.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages\\widget-data.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pcoded.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pcoded.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\plugins\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\plugins\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\plugins\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\plugins\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\plugins\\prism.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\prism.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\ripple.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ripple.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\uikit.js",
+      "PackagePath": "staticwebassets\\admin\\js\\uikit.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\uikit.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\uikit.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\vendor-all.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendor-all.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\vendor-all.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendor-all.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\waves.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\waves.min.js"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\assets\\Source\\OwlCarousel2-2.3.4.zip",
       "PackagePath": "staticwebassets\\assets\\Source\\OwlCarousel2-2.3.4.zip"
     },
@@ -711,6 +1487,86 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\083dbb68-ec64-4d39-a6aa-85326ddd5df3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\083dbb68-ec64-4d39-a6aa-85326ddd5df3.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\0f7adc1b-61b0-4758-866e-48d68f4cbf2d.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\0f7adc1b-61b0-4758-866e-48d68f4cbf2d.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\1f2778af-3b32-4821-89b3-a254a6146ad8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\1f2778af-3b32-4821-89b3-a254a6146ad8.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\209a8090-ff67-4d2a-a70c-073815e1d427.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\209a8090-ff67-4d2a-a70c-073815e1d427.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\7810a264-aed2-41dc-947f-5c289f8667be.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\7810a264-aed2-41dc-947f-5c289f8667be.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\93efa170-a502-4d75-900e-74b150830e15.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\93efa170-a502-4d75-900e-74b150830e15.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-34feb377-4a33-4151-b334-f0dd5f568d14.JPG",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-34feb377-4a33-4151-b334-f0dd5f568d14.JPG"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-88f7e4c3-72f6-4c8f-8cdf-c708e0662fc7.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-88f7e4c3-72f6-4c8f-8cdf-c708e0662fc7.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-a4f9cc57-88e8-4394-b816-4a7c3f5a3e84.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-a4f9cc57-88e8-4394-b816-4a7c3f5a3e84.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-e0bce6ed-255f-4e49-8271-15de53074abb.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-e0bce6ed-255f-4e49-8271-15de53074abb.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-e204f98a-162d-474a-b6a4-91b097702cb8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-e204f98a-162d-474a-b6a4-91b097702cb8.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-e8df7762-731d-4fba-ab0f-af7a638b0ec8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-e8df7762-731d-4fba-ab0f-af7a638b0ec8.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\c1a27776-89ac-4168-afe4-29ac1773ea43.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\c1a27776-89ac-4168-afe4-29ac1773ea43.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ogani.Microsoft.AspNetCore.StaticWebAssets.props",

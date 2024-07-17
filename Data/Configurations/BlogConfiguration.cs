@@ -19,7 +19,7 @@ namespace Data.Configurations
             builder.Property(x => x.Title).HasColumnType("nvarchar").HasMaxLength(150).IsRequired();
             builder.Property(x => x.ImageUrl).HasColumnType("varchar(MAX)").IsRequired();
             builder.Property(x => x.Description).HasColumnType("varchar(MAX)");
-            builder.HasOne<BlogCategory>().WithMany().HasForeignKey(x=>x.BlogCategoryId).HasPrincipalKey(x=>x.Id).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(x=>x.BlogCategory).WithMany(y=>y.Blogs).HasForeignKey(x=>x.BlogCategoryId).HasPrincipalKey(x=>x.Id).OnDelete(DeleteBehavior.NoAction);
             builder.ConfigurationAuditable();
         }
     }

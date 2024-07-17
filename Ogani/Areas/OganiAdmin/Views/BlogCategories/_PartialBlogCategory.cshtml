@@ -1,0 +1,15 @@
+﻿@model IEnumerable<BlogCategory>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>
+            <a asp-controller="BlogCategories" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning text-white" data-toggle="tooltip" data-placement="top" title="Dəyiş"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a asp-controller="BlogCategories" asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary text-white" data-toggle="tooltip" data-placement="top" title="Detallar"><i class="fa-solid fa-info"></i></a>
+            <a onclick="removeEntity(@item.Id)" class="btn btn-danger text-white" data-toggle="tooltip" data-placement="top" title="Sil">
+                <i class="fa-solid fa-trash"></i>
+            </a>
+        </td>
+    </tr>
+}

@@ -17,7 +17,8 @@ namespace Data.Configurations
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnType("int");
             builder.Property(x => x.ImageUrl).HasColumnType("varchar(MAX)");
-            builder.HasOne<Product>().WithMany().HasForeignKey(x => x.ProductId).HasPrincipalKey(x => x.Id).OnDelete(DeleteBehavior.NoAction);
+            builder.Property(x => x.IsMain).HasColumnType("bit");
+            builder.HasOne(x=>x.Product).WithMany(y=>y.ProductPictures).HasForeignKey(x => x.ProductId).HasPrincipalKey(x => x.Id).OnDelete(DeleteBehavior.NoAction);
             builder.ConfigurationAuditable();
 
         }

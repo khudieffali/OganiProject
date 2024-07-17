@@ -22,21 +22,6 @@ namespace Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ColorProduct", b =>
-                {
-                    b.Property<int>("ColorsId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ColorsId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("ColorProduct");
-                });
-
             modelBuilder.Entity("Infrastructure.Entities.Blog", b =>
                 {
                     b.Property<int>("Id")
@@ -46,9 +31,6 @@ namespace Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("BlogCategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("BlogCategoryId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -87,8 +69,6 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("BlogCategoryId");
-
-                    b.HasIndex("BlogCategoryId1");
 
                     b.HasIndex("TagId");
 
@@ -319,6 +299,9 @@ namespace Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(MAX)");
 
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
+
                     b.Property<string>("SubTitle")
                         .HasMaxLength(350)
                         .HasColumnType("nvarchar");
@@ -362,10 +345,10 @@ namespace Data.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("varchar(MAX)");
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
 
-                    b.Property<int?>("ProductId1")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedAt")
@@ -377,8 +360,6 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ProductId");
-
-                    b.HasIndex("ProductId1");
 
                     b.ToTable("Pictures");
                 });
@@ -392,9 +373,6 @@ namespace Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("CategoryId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
@@ -452,8 +430,6 @@ namespace Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.HasIndex("CategoryId1");
-
                     b.ToTable("Products");
                 });
 
@@ -496,47 +472,6 @@ namespace Data.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductToColors");
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.ProductToPicture", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("DeletedBy")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PictureId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("UpdatedBy")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PictureId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductToPictures");
                 });
 
             modelBuilder.Entity("Infrastructure.Entities.ProductToSize", b =>
@@ -605,9 +540,6 @@ namespace Data.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar");
 
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime");
 
@@ -615,8 +547,6 @@ namespace Data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("Sizes");
                 });
@@ -657,36 +587,19 @@ namespace Data.Migrations
                     b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("ColorProduct", b =>
-                {
-                    b.HasOne("Infrastructure.Entities.Color", null)
-                        .WithMany()
-                        .HasForeignKey("ColorsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Infrastructure.Entities.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Infrastructure.Entities.Blog", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.BlogCategory", null)
-                        .WithMany()
+                    b.HasOne("Infrastructure.Entities.BlogCategory", "BlogCategory")
+                        .WithMany("Blogs")
                         .HasForeignKey("BlogCategoryId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("Infrastructure.Entities.BlogCategory", null)
-                        .WithMany("Blogs")
-                        .HasForeignKey("BlogCategoryId1");
-
                     b.HasOne("Infrastructure.Entities.Tag", null)
                         .WithMany("Blogs")
                         .HasForeignKey("TagId");
+
+                    b.Navigation("BlogCategory");
                 });
 
             modelBuilder.Entity("Infrastructure.Entities.BlogToTag", b =>
@@ -710,28 +623,22 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Infrastructure.Entities.Picture", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.Product", null)
-                        .WithMany()
+                    b.HasOne("Infrastructure.Entities.Product", "Product")
+                        .WithMany("ProductPictures")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("Infrastructure.Entities.Product", null)
-                        .WithMany("ProductPictures")
-                        .HasForeignKey("ProductId1");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Infrastructure.Entities.Product", b =>
                 {
-                    b.HasOne("Infrastructure.Entities.Category", null)
-                        .WithMany()
+                    b.HasOne("Infrastructure.Entities.Category", "Category")
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
-
-                    b.HasOne("Infrastructure.Entities.Category", "Category")
-                        .WithMany("Products")
-                        .HasForeignKey("CategoryId1");
 
                     b.Navigation("Category");
                 });
@@ -739,13 +646,13 @@ namespace Data.Migrations
             modelBuilder.Entity("Infrastructure.Entities.ProductToColor", b =>
                 {
                     b.HasOne("Infrastructure.Entities.Color", "Color")
-                        .WithMany()
+                        .WithMany("ProductToColors")
                         .HasForeignKey("ColorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Infrastructure.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("ProductToColors")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -755,35 +662,16 @@ namespace Data.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Infrastructure.Entities.ProductToPicture", b =>
-                {
-                    b.HasOne("Infrastructure.Entities.Picture", "Picture")
-                        .WithMany()
-                        .HasForeignKey("PictureId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Infrastructure.Entities.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Picture");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("Infrastructure.Entities.ProductToSize", b =>
                 {
                     b.HasOne("Infrastructure.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("ProductToSizes")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Infrastructure.Entities.Size", "Size")
-                        .WithMany()
+                        .WithMany("ProductToSizes")
                         .HasForeignKey("SizeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -791,13 +679,6 @@ namespace Data.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("Size");
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.Size", b =>
-                {
-                    b.HasOne("Infrastructure.Entities.Product", null)
-                        .WithMany("Sizes")
-                        .HasForeignKey("ProductId");
                 });
 
             modelBuilder.Entity("Infrastructure.Entities.BlogCategory", b =>
@@ -810,11 +691,23 @@ namespace Data.Migrations
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("Infrastructure.Entities.Color", b =>
+                {
+                    b.Navigation("ProductToColors");
+                });
+
             modelBuilder.Entity("Infrastructure.Entities.Product", b =>
                 {
                     b.Navigation("ProductPictures");
 
-                    b.Navigation("Sizes");
+                    b.Navigation("ProductToColors");
+
+                    b.Navigation("ProductToSizes");
+                });
+
+            modelBuilder.Entity("Infrastructure.Entities.Size", b =>
+                {
+                    b.Navigation("ProductToSizes");
                 });
 
             modelBuilder.Entity("Infrastructure.Entities.Tag", b =>

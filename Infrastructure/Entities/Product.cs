@@ -22,7 +22,7 @@ namespace Infrastructure.Entities
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
         public required List<Picture> ProductPictures { get; set; }
-        public List<Color>? Colors { get; set; }
-        public List<Size>? Sizes { get; set; }
+        public List<ProductToColor>? ProductToColors { get; set; }
+        public List<ProductToSize>? ProductToSizes { get; set; }
     }
 }

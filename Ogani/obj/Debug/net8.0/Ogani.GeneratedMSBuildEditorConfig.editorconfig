@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ogani
 build_property.RootNamespace = Ogani
@@ -17,6 +25,82 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Praktikant\GarageTask\Ogani\Ogani
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/BlogCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/BlogCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/BlogCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/BlogCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/BlogCategories/_PartialBlogCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xfUGFydGlhbEJsb2dDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Organic/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xPcmdhbmljXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Organic/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xPcmdhbmljXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Organic/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xPcmdhbmljXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Organic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xPcmdhbmljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Organic/_PartialOrganic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xPcmdhbmljXF9QYXJ0aWFsT3JnYW5pYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Tags/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xUYWdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Tags/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xUYWdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Tags/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xUYWdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Tags/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xUYWdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Tags/_PartialTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xUYWdzXF9QYXJ0aWFsVGFnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Praktikant/GarageTask/Ogani/Ogani/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -41,6 +125,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Praktikant/GarageTask/Ogani/Ogani/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xTaGFyZWRcX0xheW91dEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-sz89je8u5v
 
 [D:/Praktikant/GarageTask/Ogani/Ogani/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

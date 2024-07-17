@@ -1,6 +1,7 @@
 D:\Praktikant\GarageTask\Ogani\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
 D:\Praktikant\GarageTask\Ogani\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 D:\Praktikant\GarageTask\Ogani\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Praktikant\GarageTask\Ogani\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
 D:\Praktikant\GarageTask\Ogani\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\Praktikant\GarageTask\Ogani\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
 D:\Praktikant\GarageTask\Ogani\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Commons.Concretes
 {
-    public class BaseEntity<TKey>:AuditableEntity where TKey : struct
+    public abstract class BaseEntity<TKey>:AuditableEntity where TKey : struct
     {
-        public TKey Id { get; set; }
+        public  TKey Id { get; set; }
     }
 }

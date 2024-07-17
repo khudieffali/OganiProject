@@ -13,5 +13,6 @@ namespace Infrastructure.Entities
         public string? SubTitle { get; set; }
         public string? Description { get; set; }
         public required string ImageUrl { get; set; }
+        public bool IsMain { get; set; }
     }
 }

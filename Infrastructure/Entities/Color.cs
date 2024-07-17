@@ -11,6 +11,6 @@ namespace Infrastructure.Entities
     {
         public required string Name { get; set; }
         public required string HexCode { get; set; }
-        public List<Product>? Products { get; set; }
+        public List<ProductToColor>? ProductToColors { get; set; }
     }
 }

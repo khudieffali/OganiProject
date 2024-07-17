@@ -1,0 +1,87 @@
+﻿@model IEnumerable<BlogCategory>
+
+    <!-- [ basic-table ] start -->
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Bloq Kateqoriyalar</h5>
+                <div class="btnCreate">
+                    <a asp-controller="BlogCategories" asp-action="Create">
+                        <button class="btn btn-primary">Əlavə et</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body table-border-style">
+                <div class="table-responsive">
+                    <table id="myTable">
+                        <thead class="table-primary">
+                            <tr>
+                                <th class="col-sm-6">Adı</th>
+                                <th>Parametrlər</th>
+                            </tr>
+                        </thead>
+                        <tbody id="BlogCategoryList">
+                           @await Html.PartialAsync("_PartialBlogCategory")
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ basic-table ] end -->
+    <!-- [ inverse-table ] start -->
+@section scripts{
+    <script>
+        function removeEntity(id) {
+            Swal.fire({
+                title: "Silmək istədiyinizə əminsiniz?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Bəli, əminəm!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        method: "POST",
+                        url: "@Url.Action("delete", "blogcategories")",
+                        data: { id },
+                        success: (result) => {
+                            if (!result.error) {
+                                    Swal.fire({
+                                        title: "Uğurla Silindi!",
+                                        icon: "success"
+                                    });
+                                $("#BlogCategoryList").html(result)
+                                return;
+                             }
+                                Swal.fire({
+                                    title: "Silinmə Uğursuz oldu!",
+                                    icon: "error"
+                                });
+                            },
+                            error: (error) => {
+                                Swal.fire({
+                                    title: "Silinmə Uğursuz oldu!",
+                                    icon: "error"
+                                });
+                            }
+                        })
+                }
+            });
+        }
+   
+    </script>
+    <script>
+        var table = new DataTable('#myTable', {
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/az-AZ.json',
+            },
+        });
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+      
+    </script>
+    
+}

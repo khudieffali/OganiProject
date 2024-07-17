@@ -13,5 +13,6 @@ namespace Infrastructure.Entities
         public required string ImageUrl { get; set; }
         public string? Description { get; set; }
         public int BlogCategoryId { get; set; }
+        public BlogCategory? BlogCategory { get; set; }
     }
 }

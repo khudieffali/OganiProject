@@ -27,7 +27,7 @@ namespace Data.Configurations
             builder.Property(x => x.Rating).HasColumnType("float");
             builder.Property(x => x.IsFeatured).HasColumnType("bit");
             builder.Property(x => x.Rating).HasColumnType("float");
-            builder.HasOne<Category>().WithMany().HasForeignKey(x => x.CategoryId).HasPrincipalKey(x=>x.Id).OnDelete(DeleteBehavior.NoAction);
+            builder.HasOne(x=>x.Category).WithMany(y=>y.Products).HasForeignKey(x => x.CategoryId).HasPrincipalKey(x=>x.Id).OnDelete(DeleteBehavior.NoAction);
             builder.ConfigurationAuditable();
 
         }
