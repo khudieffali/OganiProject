@@ -15,7 +15,7 @@ namespace Business.Modules.OrganicsModule.Commands.OrganicEditCommand
         public required string Title { get; set; }
         public string? SubTitle { get; set; }
         public string? Description { get; set; }
-        public required IFormFile ImageUrl { get; set; }
+        public IFormFile? ImageUrl { get; set; }
         public bool IsMain { get; set; }
     }
 }

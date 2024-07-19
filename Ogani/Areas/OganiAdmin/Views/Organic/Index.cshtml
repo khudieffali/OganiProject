@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Organic>
+﻿    @model IEnumerable<Organic>
 
     <!-- [ basic-table ] start -->
     <div class="col-md-12">
@@ -43,6 +43,7 @@
                 showCancelButton: true,
                 confirmButtonColor: "#3085d6",
                 cancelButtonColor: "#d33",
+                cancelButtonText: "Ləğv et!",
                 confirmButtonText: "Bəli, əminəm!"
             }).then((result) => {
                 if (result.isConfirmed) {
@@ -76,16 +77,6 @@
         }
    
     </script>
-    <script>
-        var table = new DataTable('#myTable', {
-            language: {
-                url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/az-AZ.json',
-            },
-        });
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-      
-    </script>
+
     
 }

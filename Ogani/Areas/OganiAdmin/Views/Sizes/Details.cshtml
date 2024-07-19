@@ -1,0 +1,44 @@
+﻿@model Size
+
+<div class="card">
+    <div class="card-header">
+        <h5>
+            Detallar səhifəsi
+        </h5>
+        </br>
+        <a asp-controller="Sizes" asp-action="Index" class="btn btn-primary mt-3">Geriyə Qayıt</a>
+    </div>
+    <div class="card-block">
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Adı</label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" placeholder="Adı" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Yaradılma tarixi</label>
+            <div class="col-sm-10">
+                <input asp-for="CreatedAt" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Kim tərəfindən yaradılıb</label>
+            <div class="col-sm-10">
+                <input asp-for="CreatedBy" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Dəyişiklik olunma tarixi</label>
+            <div class="col-sm-10">
+                <input asp-for="UpdatedAt" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Kim tərəfindən dəyişiklik edilib</label>
+            <div class="col-sm-10">
+                <input asp-for="UpdatedBy" class="form-control" disabled>
+            </div>
+        </div>
+    </div>
+</div>

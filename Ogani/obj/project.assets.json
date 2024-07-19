@@ -8116,6 +8116,7 @@
     "net8.0": [
       "Business >= 1.0.0",
       "Data >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3"
     ]
@@ -8158,6 +8159,9 @@
             },
             "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Data.csproj": {
               "projectPath": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Data.csproj"
+            },
+            "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -1,10 +1,11 @@
 ﻿.pcoded-main-container .card {
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .card .card-header .btnCreate button {
     margin-top: 15px;
 }
+
 .card .card-block .row .label-photo {
     background: #FFBA57;
     padding: 12px 25px;
@@ -13,33 +14,53 @@
     cursor: pointer;
     border-radius: 5px;
 }
-.tableOrganic tbody tr td img {
+
+table tbody tr td img {
     z-index: 2;
     height: 120px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
+
+table tbody tr td .colorBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #808080;
+}
+
 .card .card-block .row #oldPhoto {
-   padding:15px;
-   min-height:280px;
-   border:1px solid #d9682673;
-   border-radius:20px;
-   margin-top:10px;
+    padding: 15px;
+    min-height: 280px;
+    border: 1px solid #d9682673;
+    border-radius: 20px;
+    margin-top: 10px;
 }
+
     .card .card-block .row #oldPhoto .oldPhotoLabel {
         padding: 8px;
         border-radius: 5px;
         background: #ABC2E4;
-        color:#fff;
-        text-align:center;
+        color: #fff;
+        text-align: center;
     }
+
     .card .card-block .row #oldPhoto img {
-        margin-top:20px;
+        margin-top: 20px;
         z-index: 2;
         height: 300px;
         width: 100%;
         object-fit: contain;
     }
-    .card .card-block .row {
-       margin-right:0px;
+
+.card .card-block .row {
+    margin-right: 0px;
+}
+
+    .card .card-block .row .colorBox {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        border: 1px solid #808080;
     }
+

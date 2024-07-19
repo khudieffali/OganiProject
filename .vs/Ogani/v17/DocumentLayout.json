@@ -3,56 +3,116 @@
   "WorkspaceRootPath": "D:\\Praktikant\\GarageTask\\Ogani\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\categories\\_partialcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\categories\\_partialcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\commands\\categorydeletecommand\\categorydeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\commands\\categorydeletecommand\\categorydeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|d:\\praktikant\\garagetask\\ogani\\infrastructure\\services\\concretes\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\concretes\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|d:\\praktikant\\garagetask\\ogani\\ogani\\areas\\oganiadmin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\queries\\categorygetquery\\categorygethandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\queries\\categorygetquery\\categorygethandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\queries\\categorygetquery\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\queries\\categorygetquery\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\organic\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\organic\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\commands\\categorydeletecommand\\categorydeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\commands\\categorydeletecommand\\categorydeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\commands\\categoryeditcommand\\categoryedithandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\commands\\categoryeditcommand\\categoryedithandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\queries\\categorygetallquery\\categorygetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\queries\\categorygetallquery\\categorygetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\queries\\categorygetallquery\\categorygetallrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\queries\\categorygetallquery\\categorygetallrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\queries\\categorygetquery\\categorygetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\queries\\categorygetquery\\categorygetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\organic\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\organic\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\organicsmodule\\commands\\organiceditcommand\\organicedithandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\organicsmodule\\commands\\organiceditcommand\\organicedithandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|D:\\Praktikant\\GarageTask\\Ogani\\infrastructure\\services\\concretes\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\concretes\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\commands\\categoryeditcommand\\categoryeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\commands\\categoryeditcommand\\categoryeditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\organicsmodule\\commands\\organicdeletecommand\\organicdeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\organicsmodule\\commands\\organicdeletecommand\\organicdeletehandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\commands\\categoryaddcommand\\categoryaddhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\commands\\categoryaddcommand\\categoryaddhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|d:\\praktikant\\garagetask\\ogani\\data\\datacontexts\\oganidatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|solutionrelative:data\\datacontexts\\oganidatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\categoriesmodule\\commands\\categoryaddcommand\\categoryaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\categoriesmodule\\commands\\categoryaddcommand\\categoryaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|D:\\Praktikant\\GarageTask\\Ogani\\infrastructure\\services\\abstarcts\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\abstarcts\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|D:\\Praktikant\\GarageTask\\Ogani\\infrastructure\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|d:\\praktikant\\garagetask\\ogani\\business\\modules\\organicsmodule\\commands\\organicdeletecommand\\organicdeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\organicsmodule\\commands\\organicdeletecommand\\organicdeleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\organic\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\organic\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\tagsmodule\\queries\\taggetquery\\taggethandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\tagsmodule\\queries\\taggetquery\\taggethandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|D:\\Praktikant\\GarageTask\\Ogani\\business\\modules\\tagsmodule\\queries\\taggetallquery\\taggetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CE15B30-172A-4959-ADA0-0227436D373C}|Business\\Business.csproj|solutionrelative:business\\modules\\tagsmodule\\queries\\taggetallquery\\taggetallhandlerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|D:\\Praktikant\\GarageTask\\Ogani\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9989E-0D5F-4047-B464-46D95C5DD61E}|Data\\Data.csproj|solutionrelative:data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\controllers\\organiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\controllers\\organiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|D:\\Praktikant\\GarageTask\\Ogani\\infrastructure\\extensions\\categoryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F8CA292-36A1-4F99-9BDF-C0DB7C875F9B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\extensions\\categoryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\tags\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\tags\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\organic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\organic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\blogcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\blogcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\controllers\\blogcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\controllers\\blogcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|D:\\Praktikant\\GarageTask\\Ogani\\ogani\\areas\\oganiadmin\\views\\organic\\_partialorganic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE6B64F-DABE-4450-9586-88F57C911E94}|Ogani\\Ogani.csproj|solutionrelative:ogani\\areas\\oganiadmin\\views\\organic\\_partialorganic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,169 +122,352 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OganiDataContext.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\DataContexts\\OganiDataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContexts\\OganiDataContext.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\DataContexts\\OganiDataContext.cs",
-              "RelativeToolTip": "Data\\DataContexts\\OganiDataContext.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwBwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:23:25.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrganicDeleteRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteRequest.cs",
-              "RelativeDocumentMoniker": "Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteRequest.cs",
-              "RelativeToolTip": "Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:17:32.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TagGetHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\TagsModule\\Queries\\TagGetQuery\\TagGetHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Business\\Modules\\TagsModule\\Queries\\TagGetQuery\\TagGetHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\TagsModule\\Queries\\TagGetQuery\\TagGetHandlerRequest.cs",
-              "RelativeToolTip": "Business\\Modules\\TagsModule\\Queries\\TagGetQuery\\TagGetHandlerRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:17:27.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TagGetAllHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\TagsModule\\Queries\\TagGetAllQuery\\TagGetAllHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Business\\Modules\\TagsModule\\Queries\\TagGetAllQuery\\TagGetAllHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\TagsModule\\Queries\\TagGetAllQuery\\TagGetAllHandlerRequest.cs",
-              "RelativeToolTip": "Business\\Modules\\TagsModule\\Queries\\TagGetAllQuery\\TagGetAllHandlerRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:17:24.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Services\\Abstarcts\\IFileService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\Abstarcts\\IFileService.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Services\\Abstarcts\\IFileService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\Abstarcts\\IFileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:59:55.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrganicEditHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
-              "RelativeToolTip": "Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:15:11.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrganicController.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Controllers\\OrganicController.cs",
-              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Controllers\\OrganicController.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Controllers\\OrganicController.cs",
-              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Controllers\\OrganicController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAswFcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:46:04.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FileService.cs",
               "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Services\\Concretes\\FileService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\Concretes\\FileService.cs",
               "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Services\\Concretes\\FileService.cs",
               "RelativeToolTip": "Infrastructure\\Services\\Concretes\\FileService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBoAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:40:02.895Z",
+              "WhenOpened": "2024-07-19T13:43:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_PartialCategory.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\_PartialCategory.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\_PartialCategory.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\_PartialCategory.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\_PartialCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T10:54:43.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T12:29:54.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAQwDQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:46:54.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T11:50:58.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrganicDeleteHandlerRequest.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteHandlerRequest.cs",
-              "RelativeDocumentMoniker": "Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteHandlerRequest.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteHandlerRequest.cs",
-              "RelativeToolTip": "Business\\Modules\\OrganicsModule\\Commands\\OrganicDeleteCommand\\OrganicDeleteHandlerRequest.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBQAAAAKAAAA",
+              "Title": "CategoryDeleteHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteHandlerRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteHandlerRequest.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwBQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:36:30.775Z",
+              "WhenOpened": "2024-07-19T11:09:28.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T09:47:42.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T13:29:03.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryGetHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetHandlerRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetHandlerRequest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:08:10.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Tags\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Tags\\Index.cshtml",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Tags\\Index.cshtml",
-              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Tags\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T20:32:53.331Z"
+              "Title": "CategoryGetDto.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetDto.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetDto.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetDto.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:39:23.432Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Index.cshtml",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Index.cshtml",
-              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAvAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Details.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Details.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Details.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T20:32:44.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BlogCategoriesController.cs",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Controllers\\BlogCategoriesController.cs",
-              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Controllers\\BlogCategoriesController.cs",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Controllers\\BlogCategoriesController.cs",
-              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Controllers\\BlogCategoriesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T20:29:52.128Z"
+              "WhenOpened": "2024-07-19T12:28:51.117Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\BlogCategories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\BlogCategories\\Index.cshtml",
-              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\BlogCategories\\Index.cshtml",
-              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\BlogCategories\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Title": "CategoryDeleteRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Commands\\CategoryDeleteCommand\\CategoryDeleteRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:09:17.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryEditHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditHandlerRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditHandlerRequest.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:09:57.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryGetAllHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllHandlerRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:08:27.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryGetAllRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetAllQuery\\CategoryGetAllRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:08:17.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryGetRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Queries\\CategoryGetQuery\\CategoryGetRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:08:01.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Edit.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Edit.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T20:29:44.501Z"
+              "WhenOpened": "2024-07-19T12:29:13.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrganicEditHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\OrganicsModule\\Commands\\OrganicEditCommand\\OrganicEditHandlerRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:17:58.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryEditRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Commands\\CategoryEditCommand\\CategoryEditRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:09:39.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryAddHandlerRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddHandlerRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddHandlerRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddHandlerRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddHandlerRequest.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:09:03.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryAddRequest.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddRequest.cs",
+              "RelativeDocumentMoniker": "Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddRequest.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddRequest.cs",
+              "RelativeToolTip": "Business\\Modules\\CategoriesModule\\Commands\\CategoryAddCommand\\CategoryAddRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:08:49.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Entities\\Category.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Entities\\Category.cs",
+              "RelativeToolTip": "Infrastructure\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:00:24.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Create.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Create.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Create.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T11:50:42.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\libman.json",
+              "RelativeDocumentMoniker": "Ogani\\libman.json",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\libman.json",
+              "RelativeToolTip": "Ogani\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-19T10:48:11.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:04:40.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAAANoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T11:03:13.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryExtension.cs",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Extensions\\CategoryExtension.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extensions\\CategoryExtension.cs",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Infrastructure\\Extensions\\CategoryExtension.cs",
+              "RelativeToolTip": "Infrastructure\\Extensions\\CategoryExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:37:12.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_PartialOrganic.cshtml",
+              "DocumentMoniker": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\_PartialOrganic.cshtml",
+              "RelativeDocumentMoniker": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\_PartialOrganic.cshtml",
+              "ToolTip": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\Areas\\OganiAdmin\\Views\\Organic\\_PartialOrganic.cshtml",
+              "RelativeToolTip": "Ogani\\Areas\\OganiAdmin\\Views\\Organic\\_PartialOrganic.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T09:57:52.023Z"
             }
           ]
         }

@@ -31,9 +31,10 @@ namespace Infrastructure.Services.Concretes
             FileInfo fileInfo = new(Path.Combine(folder, oldFileName));
             if (file == null)
             {
-                var deleteFileName = $"archive-{oldFileName}";
-                fileInfo.MoveTo(Path.Combine(folder, deleteFileName));
-                return oldFileName;
+                    var deleteFileName = $"archive-{oldFileName}";
+                    fileInfo.MoveTo(Path.Combine(folder, deleteFileName));
+                    return oldFileName;
+                
             }
             return await ChangeAsync(file, fileInfo, folder, oldFileName);
 
@@ -51,8 +52,8 @@ namespace Infrastructure.Services.Concretes
 
             if (fileInfo.Exists && isArchive)
             {
-                var newFileName = $"archive-{oldFileName}";
-                fileInfo.MoveTo(Path.Combine(folder, newFileName));
+                    var newFileName = $"archive-{oldFileName}";
+                    fileInfo.MoveTo(Path.Combine(folder, newFileName));
             }
             else if (fileInfo.Exists && !isArchive)
             {

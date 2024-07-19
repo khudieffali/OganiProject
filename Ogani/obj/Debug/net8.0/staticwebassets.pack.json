@@ -493,6 +493,10 @@
       "PackagePath": "staticwebassets\\admin\\images\\widget\\user-blur-bg.png"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\additional.js",
+      "PackagePath": "staticwebassets\\admin\\js\\additional.js"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\js\\analytics.js",
       "PackagePath": "staticwebassets\\admin\\js\\analytics.js"
     },
@@ -1441,6 +1445,54 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\css\\jquery.treegrid.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\css\\jquery.treegrid.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\css\\jquery.treegrid.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\css\\jquery.treegrid.min.css"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\img\\collapse.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\img\\collapse.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\img\\expand.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\img\\expand.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\img\\file.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\img\\file.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\img\\folder.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\img\\folder.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap2.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\js\\jquery.treegrid.bootstrap3.min.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\js\\jquery.treegrid.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\js\\jquery.treegrid.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-treegrid\\js\\jquery.treegrid.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-treegrid\\js\\jquery.treegrid.min.js"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -1549,6 +1601,10 @@
       "PackagePath": "staticwebassets\\uploads\\images\\archive-88f7e4c3-72f6-4c8f-8cdf-c708e0662fc7.jpeg"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-8ebe9dde-6fb0-4c51-bf05-410c58932414.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-8ebe9dde-6fb0-4c51-bf05-410c58932414.png"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-a4f9cc57-88e8-4394-b816-4a7c3f5a3e84.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\archive-a4f9cc57-88e8-4394-b816-4a7c3f5a3e84.jpg"
     },
@@ -1567,6 +1623,10 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\c1a27776-89ac-4168-afe4-29ac1773ea43.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\c1a27776-89ac-4168-afe4-29ac1773ea43.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\fcc7f8b7-e6b3-4ad7-950e-9f540df9a721.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\fcc7f8b7-e6b3-4ad7-950e-9f540df9a721.jpeg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Ogani.Microsoft.AspNetCore.StaticWebAssets.props",

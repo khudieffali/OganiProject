@@ -1,0 +1,40 @@
+﻿@model Category
+@{
+    var categoryList = ViewBag.Categories;
+}
+<div class="card">
+    <div class="card-header">
+        <h5>
+            Əlavə et səhifəsi
+        </h5>
+        <br />
+        <a asp-controller="Categories" asp-action="Index" class="btn btn-primary mt-3">Geriyə Qayıt</a>
+    </div>
+    <div class="card-block">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Şəkil</label>
+                <div class="col-sm-10">
+                    <label asp-for="ImageUrl" class="control-label label-photo">Şəkil Seç (<span>0</span>)</label>
+                    <input asp-for="ImageUrl" type="file" class="form-control d-none">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Adı</label>
+                <div class="col-sm-10">
+                    <input asp-for="Name" class="form-control" placeholder="Adı">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Aid olduğu kateqoriya</label>
+                <div class="col-sm-10">
+                    <select asp-items="categoryList" asp-for="ParentId" class="custom-select">
+                        <option selected disabled>----Seçin----</option>
+                    </select>
+                </div>
+               
+            </div>
+            <input type="submit" class="btn btn-success text-white mt-3" value="Yadda saxla">
+        </form>
+    </div>
+</div>
