@@ -785,6 +785,14 @@
       "PackagePath": "staticwebassets\\admin\\js\\waves.min.js"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\multiselect\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\multiselect\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\admin\\multiselect\\js\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\multiselect\\js\\popper.js"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\assets\\Source\\OwlCarousel2-2.3.4.zip",
       "PackagePath": "staticwebassets\\assets\\Source\\OwlCarousel2-2.3.4.zip"
     },
@@ -1577,12 +1585,36 @@
       "PackagePath": "staticwebassets\\uploads\\images\\0f7adc1b-61b0-4758-866e-48d68f4cbf2d.jpeg"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\1deae3fe-b66d-414b-8462-cce4bc218dac.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\1deae3fe-b66d-414b-8462-cce4bc218dac.png"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\1f2778af-3b32-4821-89b3-a254a6146ad8.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\1f2778af-3b32-4821-89b3-a254a6146ad8.jpg"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\209a8090-ff67-4d2a-a70c-073815e1d427.jpeg",
       "PackagePath": "staticwebassets\\uploads\\images\\209a8090-ff67-4d2a-a70c-073815e1d427.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\2e0e289d-d536-46b3-8e90-26f5cc794848.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\2e0e289d-d536-46b3-8e90-26f5cc794848.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\30a01e48-d287-45cf-b2d3-14116eddd8e9.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\30a01e48-d287-45cf-b2d3-14116eddd8e9.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\46107a0c-f4e3-4796-8715-4dc63fc3bb3f.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\46107a0c-f4e3-4796-8715-4dc63fc3bb3f.jpeg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\4d683e03-1dc7-4f55-aaa6-15c2d2976a06.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\4d683e03-1dc7-4f55-aaa6-15c2d2976a06.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\5363a495-0931-4d29-a44f-13f7f3969362.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\5363a495-0931-4d29-a44f-13f7f3969362.jpeg"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\7810a264-aed2-41dc-947f-5c289f8667be.png",
@@ -1593,8 +1625,24 @@
       "PackagePath": "staticwebassets\\uploads\\images\\93efa170-a502-4d75-900e-74b150830e15.jpeg"
     },
     {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\9f48c771-77da-4202-ad07-86b802d66c21.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\9f48c771-77da-4202-ad07-86b802d66c21.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-15833c01-252a-47ba-94c1-9f5486fbb327.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-15833c01-252a-47ba-94c1-9f5486fbb327.jpeg"
+    },
+    {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-34feb377-4a33-4151-b334-f0dd5f568d14.JPG",
       "PackagePath": "staticwebassets\\uploads\\images\\archive-34feb377-4a33-4151-b334-f0dd5f568d14.JPG"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-5441a1ce-c775-45e7-a08c-9268bda105de.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-5441a1ce-c775-45e7-a08c-9268bda105de.png"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-670f2e92-e6b7-45da-a053-a2100b7a4ce2.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-670f2e92-e6b7-45da-a053-a2100b7a4ce2.jpeg"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-88f7e4c3-72f6-4c8f-8cdf-c708e0662fc7.jpeg",
@@ -1607,6 +1655,10 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-a4f9cc57-88e8-4394-b816-4a7c3f5a3e84.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\archive-a4f9cc57-88e8-4394-b816-4a7c3f5a3e84.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-c575f0ac-7ff0-45ab-83dc-79c65d049298.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\archive-c575f0ac-7ff0-45ab-83dc-79c65d049298.jpg"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\archive-e0bce6ed-255f-4e49-8271-15de53074abb.jpeg",
@@ -1623,6 +1675,10 @@
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\c1a27776-89ac-4168-afe4-29ac1773ea43.jpg",
       "PackagePath": "staticwebassets\\uploads\\images\\c1a27776-89ac-4168-afe4-29ac1773ea43.jpg"
+    },
+    {
+      "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\d13cc30f-16ba-4040-8d41-92487a996dae.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\images\\d13cc30f-16ba-4040-8d41-92487a996dae.jpeg"
     },
     {
       "Id": "D:\\Praktikant\\GarageTask\\Ogani\\Ogani\\wwwroot\\uploads\\images\\fcc7f8b7-e6b3-4ad7-950e-9f540df9a721.jpeg",

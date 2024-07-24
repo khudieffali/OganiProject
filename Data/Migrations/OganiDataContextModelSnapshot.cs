@@ -52,9 +52,6 @@ namespace Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(MAX)");
 
-                    b.Property<int?>("TagId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(150)
@@ -69,8 +66,6 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("BlogCategoryId");
-
-                    b.HasIndex("TagId");
 
                     b.ToTable("Blogs");
                 });
@@ -595,17 +590,13 @@ namespace Data.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("Infrastructure.Entities.Tag", null)
-                        .WithMany("Blogs")
-                        .HasForeignKey("TagId");
-
                     b.Navigation("BlogCategory");
                 });
 
             modelBuilder.Entity("Infrastructure.Entities.BlogToTag", b =>
                 {
                     b.HasOne("Infrastructure.Entities.Blog", "Blog")
-                        .WithMany()
+                        .WithMany("BlogTagsList")
                         .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -681,6 +672,11 @@ namespace Data.Migrations
                     b.Navigation("Size");
                 });
 
+            modelBuilder.Entity("Infrastructure.Entities.Blog", b =>
+                {
+                    b.Navigation("BlogTagsList");
+                });
+
             modelBuilder.Entity("Infrastructure.Entities.BlogCategory", b =>
                 {
                     b.Navigation("Blogs");
@@ -708,11 +704,6 @@ namespace Data.Migrations
             modelBuilder.Entity("Infrastructure.Entities.Size", b =>
                 {
                     b.Navigation("ProductToSizes");
-                });
-
-            modelBuilder.Entity("Infrastructure.Entities.Tag", b =>
-                {
-                    b.Navigation("Blogs");
                 });
 #pragma warning restore 612, 618
         }

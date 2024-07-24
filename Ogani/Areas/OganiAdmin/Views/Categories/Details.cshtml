@@ -34,7 +34,14 @@
         </div>
         <div class="form-group row">
             <label class="col-sm-2 col-form-label">Aid olduğu kateqoriya</label>
-             <label class="col-sm-10 form-control" style="background:#cdcdcd">@Model.ParentName</label>
+            @if(Model.ParentName is null)
+            {
+                <label class="col-sm-10 col-form-label" style="color:red;">Yoxdur</label>
+            }
+            else
+            {
+                <label class="col-sm-10 col-form-label" style="background:#E9ECEF;">@Model.ParentName</label>
+            }
         </div>
         <div class="form-group row">
             <label class="col-sm-2 col-form-label">Yaradılma tarixi</label>

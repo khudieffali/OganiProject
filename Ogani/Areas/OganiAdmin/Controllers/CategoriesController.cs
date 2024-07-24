@@ -21,8 +21,7 @@ namespace Ogani.Areas.OganiAdmin.Controllers
 		}
         public async Task<IActionResult> Details(CategoryGetRequest request)
         {
-            var categories = await _mediator.Send(new CategoryGetAllRequest());
-            ViewBag.Categories = new SelectList(categories, "Id", "Name");
+          
             var response=await _mediator.Send(request);
             return View(response);
         }

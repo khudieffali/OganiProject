@@ -14,5 +14,6 @@ namespace Infrastructure.Entities
         public string? Description { get; set; }
         public int BlogCategoryId { get; set; }
         public BlogCategory? BlogCategory { get; set; }
+        public List<BlogToTag>? BlogTagsList { get; set; }
     }
 }
