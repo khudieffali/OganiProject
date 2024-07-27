@@ -10,5 +10,6 @@ namespace Infrastructure.Entities
     public class Tag:BaseEntity<int>    
     {
         public required string Name { get; set; }
+        public required string Slug { get; set; }
     }
 }

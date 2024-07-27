@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using MediatR;
 using System;
@@ -16,7 +17,7 @@ namespace Business.Modules.ColorsModule.Commands.ColorAddCommand
 
         public async Task<Color> Handle(ColorAddRequest request, CancellationToken cancellationToken)
         {
-            var newData= new Color { Name=request.Name,HexCode = request.HexCode };
+            var newData= new Color { Name=request.Name,HexCode = request.HexCode,Slug=request.Name.ToSlug() };
             await _colorRepository.Add(newData);
             return newData;
         }

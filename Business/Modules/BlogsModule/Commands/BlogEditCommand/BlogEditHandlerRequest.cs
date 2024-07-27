@@ -1,6 +1,7 @@
 ﻿using Business.Modules.BlogsModule.Commands.BlogAddCommand;
 using Business.Modules.BlogsModule.Queries.BlogGetQuery;
 using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using Infrastructure.Services.Abstarcts;
 using MediatR;
@@ -26,10 +27,11 @@ namespace Business.Modules.BlogsModule.Commands.BlogEditCommand
             if(dbData!=null)
             {
                 dbData.Title=request.Title;
+                dbData.Slug = request.Title.ToSlug();
                 dbData.Description=request.Description;
                 dbData.ImageUrl = request.ImageUrl is null ? dbData.ImageUrl : await _fileService.UpdateFileChangeAsync(request.ImageUrl, dbData.ImageUrl, true);
                 dbData.BlogCategoryId=request.BlogCategoryId;
-                var existingTags =await _blogToTagRepository.GetAllAsync(x => x.BlogId == request.Id);
+                var existingTags =await _blogToTagRepository.GetAllAsync(x => x.BlogId == request.Id && x.DeletedBy==null);
                 _blogToTagRepository.DeleteRange([.. existingTags]);
                 if (request.TagIds != null && request.TagIds.Count > 0)
                 {

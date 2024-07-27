@@ -11,6 +11,7 @@ namespace Infrastructure.Entities
     {
         public required string Name { get; set; }
         public string? ImageUrl { get; set; }
+        public required string Slug { get; set; }
         public int? ParentId { get; set; }
         public List<Product>? Products { get; set; }
     }

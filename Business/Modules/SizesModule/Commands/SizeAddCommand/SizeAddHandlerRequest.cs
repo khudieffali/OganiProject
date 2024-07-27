@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using MediatR;
 using System;
@@ -15,7 +16,7 @@ namespace Business.Modules.SizesModule.Commands.SizeAddCommand
 
         public async Task<Size> Handle(SizeAddRequest request, CancellationToken cancellationToken)
         {
-           var newData= new Size { Name = request.Name };
+           var newData= new Size { Name = request.Name,Slug=request.Name.ToSlug() };
             await _sizeRepository.Add(newData);
             return newData;
         }

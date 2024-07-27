@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ogani")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a177a1f7d449eec036d38413fd5563e977f1a3fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0062111328a4d0fc868aece689d83111daf9c315")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ogani")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ogani")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

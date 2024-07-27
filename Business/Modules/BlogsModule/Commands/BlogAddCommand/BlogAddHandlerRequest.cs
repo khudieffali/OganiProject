@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using Infrastructure.Services.Abstarcts;
 using MediatR;
@@ -23,6 +24,7 @@ namespace Business.Modules.BlogsModule.Commands.BlogAddCommand
                 Description = request.Description,
                 ImageUrl = await _fileService.UploadFileAsync(request.ImageUrl),
                 BlogCategoryId = request.BlogCategoryId,
+                Slug=request.Title.ToSlug(),
                 BlogTagsList = []
             };
             if(request.TagIds is { })

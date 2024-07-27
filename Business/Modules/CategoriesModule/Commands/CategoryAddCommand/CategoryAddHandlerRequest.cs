@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using Infrastructure.Services.Abstarcts;
 using MediatR;
@@ -16,9 +17,11 @@ namespace Business.Modules.CategoriesModule.Commands.CategoryAddCommand
         private readonly IFileService _fileService=fileService;
         public async Task<Category> Handle(CategoryAddRequest request, CancellationToken cancellationToken)
         {
-            var newData = new Category { Name = request.Name, 
-                ImageUrl = request.ImageUrl==null?null : await _fileService.UploadFileAsync(request.ImageUrl),
-                ParentId = request.ParentId 
+            var newData = new Category { Name = request.Name,
+                ImageUrl = request.ImageUrl == null ? null : await _fileService.UploadFileAsync(request.ImageUrl),
+                ParentId = request.ParentId,
+                Slug = request.Name.ToSlug()
+               
             };
             await _categoryRepository.Add(newData);
             return newData;

@@ -1,5 +1,60 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@using Business.Modules.ProductsModule.Queries.ProductGetAllQuery
+@model IEnumerable<ProductGetAllDto>
+
+@foreach (var item in Model)
+{
+    <tr style="border:1px #AEDC solid">
+        <td >
+                    <img src="~/uploads/images/@item.MainPhoto" />
+        </td>
+        <td>@item.Name</td>
+        <td>@item.Price</td>
+        @if(item.Discount > 0)
+        {
+            <td>@item.Discount </td>
+        }
+        else
+        {
+        <td style="color:red">Endirim yoxdur</td>
+        }
+        @if (item.CategoryName is { })
+        {
+            <td>@item.CategoryName</td>
+        }
+        else
+        {
+            <td class="text-red">Yoxdur</td>
+        }
+        @if (item.IsAvailability == false)
+        {
+            <td style="color:red">
+                Mövcud deyil
+            </td>
+        }
+        else
+        {
+            <td style="color:limegreen">
+                Mövcuddur
+            </td>
+        }
+        @if (item.IsFeatured == false)
+        {
+            <td class="btn btn-danger text-white mt-5">
+                Önə çıxarılmayıb
+            </td>
+        }
+        else
+        {
+            <td class="btn btn-success text-white mt-5">
+                Önə çıxarılıb
+            </td>
+        }
+        <td>
+            <a asp-controller="Products" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning text-white" data-toggle="tooltip" data-placement="top" title="Dəyiş"><i class="fa-solid fa-pen-to-square"></i></a>
+            <a asp-controller="Products" asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary text-white" data-toggle="tooltip" data-placement="top" title="Detallar"><i class="fa-solid fa-info"></i></a>
+            <a onclick="removeEntity(@item.Id)" class="btn btn-danger text-white" data-toggle="tooltip" data-placement="top" title="Sil">
+                <i class="fa-solid fa-trash"></i>
+            </a>
+        </td>
+    </tr>
 }

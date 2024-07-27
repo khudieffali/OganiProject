@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using MediatR;
 using System;
@@ -15,7 +16,7 @@ namespace Business.Modules.TagsModule.Commands.TagEditCommand
 
         public async Task<Tag> Handle(TagEditRequest request, CancellationToken cancellationToken)
         {
-            var dbDataEdit= new Tag { Id=request.Id, Name = request.Name };
+            var dbDataEdit= new Tag { Id=request.Id, Name = request.Name ,Slug=request.Name.ToSlug()};
             await _tagRepository.Update(dbDataEdit);
             return dbDataEdit;
         } 

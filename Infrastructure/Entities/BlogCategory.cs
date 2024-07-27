@@ -10,6 +10,7 @@ namespace Infrastructure.Entities
     public class BlogCategory:BaseEntity<int>
     {
         public required string Name { get; set; }
+        public required string Slug { get; set; }
         public List<Blog>? Blogs { get; set; }
     }
 }

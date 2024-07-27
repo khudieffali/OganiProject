@@ -1,11 +1,11 @@
-﻿using Business.Modules.ColorsModule.Queries.ColorGetAllQuery;
+﻿using Business.Modules.CategoriesModule.Queries.CategoryGetAllQuery;
+using Business.Modules.ColorsModule.Queries.ColorGetAllQuery;
 using Business.Modules.ProductsModule.Commands.ProductAddCommand;
 using Business.Modules.ProductsModule.Commands.ProductDeleteCommand;
 using Business.Modules.ProductsModule.Commands.ProductEditCommand;
 using Business.Modules.ProductsModule.Queries.ProductGetAllQuery;
 using Business.Modules.ProductsModule.Queries.ProductGetQuery;
 using Business.Modules.SizesModule.Queries.SizeGetAllQuery;
-using Business.Modules.TagsModule.Queries.TagGetAllQuery;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -19,7 +19,7 @@ namespace Ogani.Areas.OganiAdmin.Controllers
 
         public async Task<IActionResult> Index(ProductGetAllRequest request)
         {
-            var response = await _mediator.Send(request);
+            var response = await _mediator.Send(request);   
             return View(response);
         }
         public async Task<IActionResult> Details(ProductGetRequest request)
@@ -31,13 +31,14 @@ namespace Ogani.Areas.OganiAdmin.Controllers
         public async Task<IActionResult> Create()
         {
             var productColors = await _mediator.Send(new ColorGetAllRequest());
-            ViewBag.BlogCategories = new SelectList(productColors, "Id", "Name");
+            ViewBag.ProductColors = new SelectList(productColors, "Id", "HexCode"); ;
             var productSizes = await _mediator.Send(new SizeGetAllRequest());
-            ViewBag.TagList = new SelectList(productSizes, "Id", "Name");
+            ViewBag.ProductSizes = new SelectList(productSizes, "Id", "Name");
+            var categories = await _mediator.Send(new CategoryGetAllRequest());
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View();
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductAddRequest request)
         {
             try
@@ -51,15 +52,17 @@ namespace Ogani.Areas.OganiAdmin.Controllers
                 return View();
             }
 
-        }
+            }
 
         public async Task<IActionResult> Edit(ProductGetRequest request)
         {
             var response = await _mediator.Send(request);
             var productColors = await _mediator.Send(new ColorGetAllRequest());
-            ViewBag.BlogCategories = new SelectList(productColors, "Id", "Name");
+            ViewBag.ProductColors = new SelectList(productColors, "Id", "Name");
             var productSizes = await _mediator.Send(new SizeGetAllRequest());
-            ViewBag.TagList = new SelectList(productSizes, "Id", "Name");
+            ViewBag.ProductSizes = new SelectList(productSizes, "Id", "Name");
+            var categories = await _mediator.Send(new CategoryGetAllRequest());
+            ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(response);
         }
         [HttpPost]
@@ -85,7 +88,7 @@ namespace Ogani.Areas.OganiAdmin.Controllers
             try
             {
                 var response = await _mediator.Send(request);
-                return PartialView("_PartialBlog", response);
+                return PartialView("_PartialProduct", response);
             }
             catch
             {

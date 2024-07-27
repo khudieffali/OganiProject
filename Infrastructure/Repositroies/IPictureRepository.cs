@@ -10,5 +10,6 @@ namespace Infrastructure.Repositroies
 {
     public interface IPictureRepository : IRepository<Picture>
     {
+        Task DeleteRange(List<Picture> pictureList);
     }
 }

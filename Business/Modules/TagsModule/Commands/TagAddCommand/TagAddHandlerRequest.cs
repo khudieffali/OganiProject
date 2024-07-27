@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using MediatR;
 using System;
@@ -15,7 +16,7 @@ namespace Business.Modules.TagsModule.Commands.TagAddCommand
 
 		public async Task<Tag> Handle(TagAddRequest request, CancellationToken cancellationToken)
 		{
-			var newData= new Tag { Name = request.Name};
+			var newData= new Tag { Name = request.Name,Slug=request.Name.ToSlug()};
 		    await _tagRepository.Add(newData);
 			return newData;
 		}

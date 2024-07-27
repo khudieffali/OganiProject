@@ -15,8 +15,9 @@ namespace Infrastructure.Entities
         public decimal Discount { get; set; }
         public int Review { get; set; }
         public bool IsAvailability { get; set; }
-        public double? Weight { get; set; }
+        public string? Weight { get; set; }
         public string? Shipping { get; set; }
+        public required string Slug { get; set; }
         public double? Rating { get; set; }
         public bool IsFeatured { get; set; }
         public int CategoryId { get; set; }

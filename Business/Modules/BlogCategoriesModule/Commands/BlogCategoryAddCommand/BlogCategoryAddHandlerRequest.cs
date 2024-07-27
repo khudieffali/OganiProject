@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using MediatR;
 using System;
@@ -15,7 +16,7 @@ namespace Business.Modules.BlogCategoryModule.Commands.BlogCategoryAddCommand
 
 		public async Task<BlogCategory> Handle(BlogCategoryAddRequest request, CancellationToken cancellationToken)
 		{
-			var newData= new BlogCategory { Name = request.Name };
+			var newData= new BlogCategory { Name = request.Name,Slug=request.Name.ToSlug() };
 			await _blogCategoryRepository.Add(newData);
 			return newData;
 		}

@@ -16,7 +16,8 @@ namespace Data.Configurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).HasColumnType("int");
-            builder.Property(x => x.Name).HasColumnType("nvarchar").HasMaxLength(150);
+            builder.Property(x => x.Name).HasColumnType("nvarchar").HasMaxLength(150).IsRequired();
+            builder.Property(x => x.Slug).HasColumnType("varchar").HasMaxLength(150).IsRequired();
             builder.Property(a => a.HexCode).HasColumnType("varchar").HasMaxLength(7).IsRequired();
             builder.ConfigurationAuditable();
         }

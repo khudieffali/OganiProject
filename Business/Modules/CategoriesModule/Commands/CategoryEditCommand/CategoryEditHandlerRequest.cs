@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Extensions;
 using Infrastructure.Repositroies;
 using Infrastructure.Services.Abstarcts;
 using MediatR;
@@ -18,6 +19,7 @@ namespace Business.Modules.CategoriesModule.Commands.CategoryEditCommand
         {
             var dbData = await _categoryRepository.GetAsync(x => x.Id == request.Id && x.DeletedBy == null);
             dbData.Name = request.Name;
+            dbData.Slug = request.Name.ToSlug();
             dbData.ImageUrl =request.ImageUrl==null?dbData.ImageUrl:await _fileService.UpdateFileChangeAsync(request.ImageUrl,dbData.ImageUrl,true) ;
             await _categoryRepository.SaveAsync();
             return dbData;
