@@ -58,7 +58,7 @@ namespace Infrastructure.Commons.Concretes
             }
             var data = await _table.FirstOrDefaultAsync(predicate);
             return data;
-        }
+            }
 
         public async Task<int> SaveAsync()
         {

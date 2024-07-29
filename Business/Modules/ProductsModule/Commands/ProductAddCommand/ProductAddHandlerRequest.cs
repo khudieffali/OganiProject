@@ -48,15 +48,15 @@ namespace Business.Modules.ProductsModule.Commands.ProductAddCommand
                 }
             }
             var ProductImages = request.ProductImages;
-            if (request.ProductImages is { })
+            if (ProductImages is { })
             {
                 for (var i = 0; i < ProductImages.Count; i++)
                 {
                     newData.ProductPictures.Add(
                         new Picture
-                        {
+                        {   
                             ProductId = newData.Id,
-                            ImageUrl = await _fileService.UploadFileAsync(ProductImages[0]),
+                            ImageUrl = i is 0?await _fileService.UploadFileAsync(ProductImages[0]):await _fileService.UploadFileAsync(ProductImages[i]),
                             IsMain = i is 0,
                         }
                        );

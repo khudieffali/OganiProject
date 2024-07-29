@@ -1,5 +1,175 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@using Business.Modules.ProductsModule.Queries.ProductGetQuery
+@model ProductGetDto
+
+<div class="card">
+    <div class="card-header">
+        <h5>
+            Detallar səhifəsi
+        </h5>
+        </br>
+        <a asp-controller="Products" asp-action="Index" class="btn btn-primary mt-3">Geriyə Qayıt</a>
+    </div>
+    <div class="card-block">
+        <div class="form-group row">
+            <div class="col-sm-12">
+                <div class="col-sm-10" id="oldPhoto">
+                    <label class="control-label oldPhotoLabel col-sm-12">Şəkillər</label>
+                    <div class="row">
+                        @foreach (var item in Model.ProductImages)
+                        {
+                            if (item.IsMain)
+                            {
+                                <div class="col-sm-2">
+                                    <img style="height:200px;" src="~/uploads/images/@item.ImageUrl" />
+                                    <span class="badge badge-info col-sm-12">Əsas şəkil</span>
+                                </div>
+                            }
+                            else
+                            {
+                                @* <form method="post"> *@
+                                <div class="col-sm-2">
+                                    <img style="height:200px;" src="~/uploads/images/@item.ImageUrl" />
+                                    <button type="submit" class="btn btn-success col-sm-12 mt-2">Əsas şəkil et</button>
+                                </div>
+                                @* </form> *@
+                            }
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Adı</label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Qiymət</label>
+            <div class="col-sm-10">
+                <input asp-for="Price" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Endirimli qiymət</label>
+            <div class="col-sm-10">
+                <input asp-for="Discount" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Çəkisi</label>
+            <div class="col-sm-10">
+                <input asp-for="Weight" class="form-control" disabled>
+            </div>
+        </div>  <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Çatdırılma yeri və vaxtı</label>
+            <div class="col-sm-10">
+                <input asp-for="Shipping" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Aid olduğu kateqoriya</label>
+            <label class="col-sm-10 col-form-label" style="background:#E9ECEF;">@Model.CategoryName</label>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Açıqlama</label>
+            <div class="col-sm-10">
+                <textarea asp-for="Description" class="form-control" aria-label="With textarea" placeholder="Açıqlama" disabled></textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Etiketlər (Teqlər)</label>
+            @if (Model.ProductSizes is not { })
+            {
+                <label class="col-sm-10 col-form-label" style="color:red;">Yoxdur</label>
+            }
+            else
+            {
+                <label class="col-sm-10 col-form-label" style="background:#E9ECEF;">
+
+                    @foreach (var item in Model.ProductSizes)
+                    {
+                        <span><b>@item.Name, </b></span>
+                    }
+                </label>
+            }
+        </div>
+        <div class="form-group row align-items-center">
+            <label class="col-sm-2 col-form-label">Rəngləri</label>
+            @if (Model.ProductColors is not { })
+            {
+                <label class="col-sm-10 col-form-label" style="color:red;">Yoxdur</label>
+            }
+            else
+            {
+
+                <div class="form-group col-sm-10 d-flex" style="background:#E9ECEF;">
+                    @foreach (var item in Model.ProductColors)
+                    {
+                        <div class="col-sm-1">
+                            <div class="colorBox" style="background-color:@item.HexCode"></div>
+                            <p class="text-center"><b>@item.Name</b></p>
+                            </div>
+                    }
+                    </div>
+                 }
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Yaradılma tarixi</label>
+            <div class="col-sm-10">
+                <input asp-for="CreatedAt" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Kim tərəfindən yaradılıb</label>
+            <div class="col-sm-10">
+                <input asp-for="CreatedBy" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Dəyişiklik olunma tarixi</label>
+            <div class="col-sm-10">
+                <input asp-for="UpdatedAt" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Kim tərəfindən dəyişiklik edilib</label>
+            <div class="col-sm-10">
+                <input asp-for="UpdatedBy" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-4 row">
+                <label class="col-sm-4 col-form-label">Mövcudluq:</label>
+                <div class="custom-control custom-switch col-sm-8">
+                    @if (Model.IsAvailability)
+                    {
+                        <label class="btn btn-success text-white">Mövcuddur</label>
+                    }
+                    else
+                    {
+                        <label class="btn btn-danger text-white">Mövcud deyil</label>
+
+                    }
+                </div>
+            </div>
+       <div class="col-sm-4 row">
+                <label class="col-sm-4 col-form-label">Ön baxış:</label>
+                <div class="custom-control custom-switch col-sm-8">
+                    @if (Model.IsFeatured)
+                    {
+                        <label class="btn btn-success text-white">Önə çıxarılıb</label>
+                    }
+                    else
+                    {
+                        <label class="btn btn-danger text-white">Önə çıxarılmayıb</label>
+
+                    }
+                </div>
+       </div>
+         
+        </div>
+
+    </div>
+</div>

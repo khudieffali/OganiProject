@@ -15,7 +15,7 @@ namespace Business.Modules.BlogsModule.Queries.BlogGetQuery
         private readonly ITagRepository _tagRepository = tagRepository;
         public async Task<BlogGetDto> Handle(BlogGetRequest request, CancellationToken cancellationToken)
         {
-            var blogList =await _blogRepository.GetAllAsync(x => x.DeletedBy == null & x.Id==request.Id);
+            var blogList =await _blogRepository.GetAllAsync(x => x.DeletedBy == null && x.Id==request.Id);
             var tags = await _tagRepository.GetAllAsync();
             var blogCategoryList= await _blogCategoryRepository.GetAllAsync();
             var dbData = (from bl in blogList
@@ -38,7 +38,7 @@ namespace Business.Modules.BlogsModule.Queries.BlogGetQuery
                               CreatedBy = bl.CreatedBy,
                               UpdatedAt = bl.UpdatedAt,
                               UpdatedBy = bl.UpdatedBy,
-                          }); ;
+                          }); 
             return dbData.FirstOrDefault();
         }
     }

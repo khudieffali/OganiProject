@@ -32,7 +32,7 @@ namespace Business.Modules.BlogsModule.Commands.BlogEditCommand
                 dbData.ImageUrl = request.ImageUrl is null ? dbData.ImageUrl : await _fileService.UpdateFileChangeAsync(request.ImageUrl, dbData.ImageUrl, true);
                 dbData.BlogCategoryId=request.BlogCategoryId;
                 var existingTags =await _blogToTagRepository.GetAllAsync(x => x.BlogId == request.Id && x.DeletedBy==null);
-                _blogToTagRepository.DeleteRange([.. existingTags]);
+                await _blogToTagRepository.DeleteRange([.. existingTags]);
                 if (request.TagIds != null && request.TagIds.Count > 0)
                 {
                     foreach (var tagId in request.TagIds)

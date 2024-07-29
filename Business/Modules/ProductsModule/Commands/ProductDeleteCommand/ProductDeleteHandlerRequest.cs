@@ -21,16 +21,17 @@ namespace Business.Modules.ProductsModule.Commands.ProductDeleteCommand
         public async Task<IEnumerable<ProductGetAllDto>> Handle(ProductDeleteRequest request, CancellationToken cancellationToken)
         {
             var dbData = await _productRepository.GetAsync(x => x.Id == request.Id && x.DeletedBy == null);
+            var dbPictureList= await _pictureRepository.GetAllAsync(x=>x.ProductId==request.Id && x.DeletedBy==null);
             var dbProductList = await _productRepository.GetAllAsync(x => x.DeletedBy == null);
-            var dbDataProductPictures = (from pr in dbProductList where pr.Id == request.Id select pr.ProductPictures).FirstOrDefault();
-            if (dbDataProductPictures is { })
+            if (dbPictureList is { })
             {
-                foreach (var item in dbDataProductPictures)
+                foreach (var item in dbPictureList)
                 {
-                    await _fileService.DeleteFileChangeAsync()
+                    await _fileService.DeleteFileChangeAsync(null, item.ImageUrl, true);
                 }
             }
             await _productRepository.Delete(dbData);
+            await _pictureRepository.DeleteRange([..dbPictureList]);
             var productList = await _productRepository.GetAllAsync(x => x.DeletedBy == null);
             var categoryList = await _categoryRepository.GetAllAsync();
             var pictureList = await _pictureRepository.GetAllAsync(x => x.DeletedBy == null);

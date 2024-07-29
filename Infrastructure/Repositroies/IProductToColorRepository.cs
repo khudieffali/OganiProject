@@ -10,5 +10,6 @@ namespace Infrastructure.Repositroies
 {
     public interface IProductToColorRepository:IRepository<ProductToColor>
     {
+        Task DeleteRange(List<ProductToColor> colors);
     }
 }

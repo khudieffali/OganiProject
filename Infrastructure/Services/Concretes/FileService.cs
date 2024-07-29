@@ -34,7 +34,6 @@ namespace Infrastructure.Services.Concretes
                     var deleteFileName = $"archive-{oldFileName}";
                     fileInfo.MoveTo(Path.Combine(folder, deleteFileName));
                     return oldFileName;
-                
             }
             return await ChangeAsync(file, fileInfo, folder, oldFileName);
 

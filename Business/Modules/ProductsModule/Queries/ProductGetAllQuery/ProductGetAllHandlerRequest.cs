@@ -23,7 +23,7 @@ namespace Business.Modules.ProductsModule.Queries.ProductGetAllQuery
         {
             var productList = await _productRepository.GetAllAsync(x => x.DeletedBy == null);
             var categoryList = await _categoryRepository.GetAllAsync();
-            var pictureList = await _pictureRepository.GetAllAsync(x => x.DeletedBy == null);
+            var pictureList = await _pictureRepository.GetAllAsync(x=>x.DeletedBy==null);
             var dbDataList = (from pr in productList
                               join ct in categoryList on pr.CategoryId equals ct.Id
                               join pic in pictureList on pr.Id equals pic.ProductId

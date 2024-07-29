@@ -16,10 +16,10 @@ namespace Data.Repositories
         private readonly OganiDataContext _db=db;
 
 
-        public void DeleteRange(List<BlogToTag> tags)
+        public async Task DeleteRange(List<BlogToTag> tags)
         {
              _db.RemoveRange(tags);
-            _db.SaveChanges();
+            await _db.SaveChangesAsync();
         }
     }
 }

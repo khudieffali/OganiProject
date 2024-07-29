@@ -37,38 +37,47 @@ table tbody tr td .colorBox {
     margin-top: 10px;
 }
 
-    .card .card-block .row #oldPhoto .oldPhotoLabel {
-        padding: 8px;
-        border-radius: 5px;
-        background: #ABC2E4;
-        color: #fff;
-        text-align: center;
-    }
+.card .card-block .row #oldPhoto .oldPhotoLabel {
+    padding: 8px;
+    border-radius: 5px;
+    background: #ABC2E4;
+    color: #fff;
+    text-align: center;
+}
 
-    .card .card-block .row #oldPhoto img {
-        margin-top: 20px;
-        z-index: 2;
-        height: 300px;
-        width: 100%;
-        object-fit: contain;
-    }
+.card .card-block #oldPhoto img {
+    margin-top: 20px;
+    z-index: 2;
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#oldPhotos img {
+    margin-top: 20px;
+    z-index: 2;
+    height: 180px;
+    width: 100%;
+    object-fit: contain;
+}
 
 .card .card-block .row {
     margin-right: 0px;
+    margin-left: 0px;
 }
 
-.card .card-block .row .colorBox {
+    .card .card-block .row .colorBox {
         width: 60px;
         height: 60px;
         border-radius: 100%;
         border: 1px solid #808080;
-}
+    }
 
 .card .card-block .imageuploadify .imageuploadify-images-list .imageuploadify-container button #removeIcon {
     font-size: 8px !important;
 }
 
-    .select2-container {
+.select2-container {
     min-width: 600px;
 }
 
@@ -175,7 +184,6 @@ table tbody tr td .colorBox {
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
     margin-right: 5px;
-  
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__clear {

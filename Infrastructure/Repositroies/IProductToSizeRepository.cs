@@ -10,5 +10,6 @@ namespace Infrastructure.Repositroies
 {
     public interface IProductToSizeRepository:IRepository<ProductToSize>
     {
+        Task DeleteRange(List<ProductToSize> sizes);
     }
 }

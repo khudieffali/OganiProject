@@ -31,7 +31,7 @@ namespace Ogani.Areas.OganiAdmin.Controllers
         public async Task<IActionResult> Create()
         {
             var productColors = await _mediator.Send(new ColorGetAllRequest());
-            ViewBag.ProductColors = new SelectList(productColors, "Id", "HexCode"); ;
+            ViewBag.ProductColors = new SelectList(productColors, "Id", "Name"); ;
             var productSizes = await _mediator.Send(new SizeGetAllRequest());
             ViewBag.ProductSizes = new SelectList(productSizes, "Id", "Name");
             var categories = await _mediator.Send(new CategoryGetAllRequest());
@@ -64,9 +64,9 @@ namespace Ogani.Areas.OganiAdmin.Controllers
             var categories = await _mediator.Send(new CategoryGetAllRequest());
             ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(response);
-        }
+            }
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(ProductEditRequest request)
         {
             try

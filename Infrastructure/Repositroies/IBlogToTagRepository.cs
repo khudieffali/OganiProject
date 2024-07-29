@@ -10,6 +10,6 @@ namespace Infrastructure.Repositroies
 {
     public interface IBlogToTagRepository:IRepository<BlogToTag>
     {
-        void DeleteRange(List<BlogToTag> tags);
+        Task DeleteRange(List<BlogToTag> tags);
     }
 }
