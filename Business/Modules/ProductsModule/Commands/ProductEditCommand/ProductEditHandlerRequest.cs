@@ -15,8 +15,8 @@ namespace Business.Modules.ProductsModule.Commands.ProductEditCommand
     internal class ProductEditHandlerRequest(IProductRepository productRepository, IPictureRepository pictureRepository, IFileService fileService, IProductToSizeRepository productToSizeRepository, IProductToColorRepository productToColorRepository) : IRequestHandler<ProductEditRequest, Product>
     {
         private readonly IProductRepository _productRepository = productRepository;
-        private readonly IProductToSizeRepository _productToSizeRepository=productToSizeRepository;
-        private readonly IProductToColorRepository _productToColorRepository=productToColorRepository;
+        private readonly IProductToSizeRepository _productToSizeRepository = productToSizeRepository;
+        private readonly IProductToColorRepository _productToColorRepository = productToColorRepository;
         private readonly IPictureRepository _pictureRepository = pictureRepository;
         private readonly IFileService _fileService = fileService;
         public async Task<Product> Handle(ProductEditRequest request, CancellationToken cancellationToken)
@@ -31,12 +31,12 @@ namespace Business.Modules.ProductsModule.Commands.ProductEditCommand
             dbData.Slug = request.Name.ToSlug();
             dbData.IsAvailability = request.IsAvailability;
             dbData.IsFeatured = request.IsFeatured;
-            dbData.CategoryId=request.CategoryId;
-            var existingSizes = await _productToSizeRepository.GetAllAsync(x=>x.ProductId==request.Id && x.DeletedBy==null);
-            var existingColors= await _productToColorRepository.GetAllAsync(x=>x.ProductId==request.Id && x.DeletedBy==null);
+            dbData.CategoryId = request.CategoryId;
+            var existingSizes = await _productToSizeRepository.GetAllAsync(x => x.ProductId == request.Id && x.DeletedBy == null);
+            var existingColors = await _productToColorRepository.GetAllAsync(x => x.ProductId == request.Id && x.DeletedBy == null);
             await _productToColorRepository.DeleteRange([.. existingColors]);
             await _productToSizeRepository.DeleteRange([.. existingSizes]);
-            if(request.SizeIds is { } && request.SizeIds.Count > 0)
+            if (request.SizeIds is { } && request.SizeIds.Count > 0)
             {
                 foreach (var item in request.SizeIds)
                 {
@@ -51,49 +51,47 @@ namespace Business.Modules.ProductsModule.Commands.ProductEditCommand
                 }
             }
             List<int> removeImageIds = [];
-            //List<Picture> dbIndelibleImages = [];
             if (request.removeImageIds is { })
             {
-               removeImageIds=request.removeImageIds.Split("-").Select(x=>int.Parse(x)).ToList();
+                removeImageIds = request.removeImageIds.Split("-").Select(x => int.Parse(x)).ToList();
                 List<Picture> removeImages = [];
                 foreach (var item in removeImageIds)
                 {
                     var dbRemoveImage = await _pictureRepository.GetAsync(x => x.Id == item && x.DeletedBy == null);
-                    //dbIndelibleImages.Add(await _pictureRepository.GetAsync(x=>x.Id !=item && x.DeletedBy == null));
                     await _fileService.DeleteFileChangeAsync(null, dbRemoveImage.ImageUrl, true);
                     removeImages.Add(dbRemoveImage);
                 }
-               await _pictureRepository.DeleteRange(removeImages);
+                await _pictureRepository.DeleteRange(removeImages);
             }
-            var existingPicture = await _pictureRepository.GetAllAsync(x => x.ProductId==request.Id && x.DeletedBy==null);
+            var existingPicture = await _pictureRepository.GetAllAsync(x => x.ProductId == request.Id && x.DeletedBy == null);
             var ProductImages = request.ProductImages;
             if (ProductImages is { })
             {
-             dbData.ProductPictures =[];
+                List<Picture> newUploadImages = [];
                 for (var i = 0; i < ProductImages.Count; i++)
                 {
                     var isMain = i == 0 && !existingPicture.Any(x => x.IsMain);
 
                     var picture = new Picture
                     {
-                        ProductId = request.Id,
+                        ProductId = dbData.Id,
                         ImageUrl = await _fileService.UploadFileAsync(ProductImages[i]),
                         IsMain = isMain
                     };
-                    dbData.ProductPictures.Add(picture);
+                    newUploadImages.Add(picture);
                 }
-                foreach (var image in dbData.ProductPictures)
+                foreach (var image in newUploadImages)
                 {
                     await _pictureRepository.Add(image);
                 }
             }
             else
             {
-                if(!existingPicture.Any(x => x.IsMain))
+                if (!existingPicture.Any(x => x.IsMain))
                 {
-                    var firstElement=existingPicture.First();
+                    var firstElement = existingPicture.First();
                     firstElement.IsMain = true;
-                    dbData.ProductPictures = [.. existingPicture];
+                    await _pictureRepository.Update(firstElement);
                 }
             }
             await _productRepository.SaveAsync();

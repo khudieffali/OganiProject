@@ -21,5 +21,11 @@ namespace Data.Repositories
            _db.RemoveRange(pictureList);
            await _db.SaveChangesAsync();   
         }
+
+        public void HardDeleteRange(List<Picture> existingDeletedImages)
+        {
+            _db.RemoveRange(existingDeletedImages);
+            _db.SaveChanges();
+        }
     }
 }
