@@ -14,27 +14,8 @@
             <div class="col-sm-12">
                 <div class="col-sm-10" id="oldPhoto">
                     <label class="control-label oldPhotoLabel col-sm-12">Şəkillər</label>
-                    <div class="row">
-                        @foreach (var item in Model.ProductImages)
-                        {
-                            if (item.IsMain)
-                            {
-                                <div class="col-sm-2">
-                                    <img style="height:200px;" src="~/uploads/images/@item.ImageUrl" />
-                                    <span class="badge badge-info col-sm-12">Əsas şəkil</span>
-                                </div>
-                            }
-                            else
-                            {
-                                @* <form method="post"> *@
-                                <div class="col-sm-2">
-                                    <img style="height:200px;" src="~/uploads/images/@item.ImageUrl" />
-                                    <button type="submit" class="btn btn-success col-sm-12 mt-2">Əsas şəkil et</button>
-                                </div>
-                                @* </form> *@
-                            }
-
-                        }
+                    <div class="row" id="mainPhoto">
+                        @await Html.PartialAsync("_PartialProductDetails");
                     </div>
                 </div>
             </div>
@@ -173,3 +154,27 @@
 
     </div>
 </div>
+
+
+
+@section scripts{
+    <script>
+        function setMainImage(e) {
+            let mainPhotoId = $(e).attr("image-id");
+            let id = $(e).attr("pr-id");
+            if (typeof mainPhotoId != "undefined") {
+                $.ajax({
+                    method:"POST",
+                    url:"@Url.Action("setmainimage","products")",
+                    data: {id,mainPhotoId},
+                    success:(result)=>{
+                        if (!result.error) {
+                            $("#mainPhoto").html(result);
+                        }
+                    }
+                })
+            }
+        }
+
+    </script>
+}

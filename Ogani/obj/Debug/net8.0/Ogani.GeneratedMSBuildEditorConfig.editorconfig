@@ -150,6 +150,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xQcm9kdWN0c1xfUGFydGlhbFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Products/_PartialProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xQcm9kdWN0c1xfUGFydGlhbFByb2R1Y3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Praktikant/GarageTask/Ogani/Ogani/Areas/OganiAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dhbmlBZG1pblxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

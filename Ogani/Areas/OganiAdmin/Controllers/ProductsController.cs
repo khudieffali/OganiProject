@@ -3,6 +3,7 @@ using Business.Modules.ColorsModule.Queries.ColorGetAllQuery;
 using Business.Modules.ProductsModule.Commands.ProductAddCommand;
 using Business.Modules.ProductsModule.Commands.ProductDeleteCommand;
 using Business.Modules.ProductsModule.Commands.ProductEditCommand;
+using Business.Modules.ProductsModule.Commands.ProductSetMainImageCommand;
 using Business.Modules.ProductsModule.Queries.ProductGetAllQuery;
 using Business.Modules.ProductsModule.Queries.ProductGetQuery;
 using Business.Modules.SizesModule.Queries.SizeGetAllQuery;
@@ -89,6 +90,22 @@ namespace Ogani.Areas.OganiAdmin.Controllers
             {
                 var response = await _mediator.Send(request);
                 return PartialView("_PartialProduct", response);
+            }
+            catch
+            {
+
+                return View();
+            }
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SetMainImage(ProductSetMainImageRequest request)
+        {
+            try
+            {
+                var response = await _mediator.Send(request);
+                return PartialView("_PartialProductDetails",response);
             }
             catch
             {

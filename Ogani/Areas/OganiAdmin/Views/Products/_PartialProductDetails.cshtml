@@ -1,0 +1,21 @@
+﻿@using Business.Modules.ProductsModule.Queries.ProductGetQuery
+@model ProductGetDto
+
+@foreach (var item in Model.ProductImages)
+{
+    if (item.IsMain)
+    {
+        <div class="col-sm-2">
+            <img style="height:200px;" src="~/uploads/images/@item.ImageUrl" />
+            <span class="badge badge-info col-sm-12">Əsas şəkil</span>
+        </div>
+    }
+    else
+    {
+        <div class="col-sm-2">
+            <img style="height:200px;" src="~/uploads/images/@item.ImageUrl" />
+            <button pr-id="@Model.Id" type="submit" onclick="setMainImage(this)" image-id="@item.Id" class="btn btn-success col-sm-12 mt-2">Əsas şəkil et</button>
+        </div>
+    }
+
+}
